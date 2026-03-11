@@ -1,0 +1,16 @@
+# Composer dependencies
+vendor/
+composer.lock
+.phpunit.cache/
+.phpunit.result.cache
+
+# Build artifacts
+*.phar
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store

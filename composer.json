@@ -1,0 +1,32 @@
+{
+    "name": "sdn/test-simple-car",
+    "description": "Package simple abstraction of a car for cross-platform grafts tests on graftcode",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "graftcode",
+            "email": "support@graftcode.com",
+            "homepage": "https://graftcode.com"
+        }
+    ],
+    "require": {
+        "php": "^7.4 || ^8.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "GrftTestSimpleCar\\": "src/"
+        }
+    },
+    "keywords": ["sdn", "graftcode", "javonet"],
+    "homepage": "https://github.com/grft-dev/sdn-test-simple-car",
+    "support": {
+        "source": "https://github.com/grft-dev/sdn-test-simple-car"
+    },
+    "minimum-stability": "stable",
+    "prefer-stable": true,
+    "config": {
+        "optimize-autoloader": true,
+        "sort-packages": true
+    }
+}
