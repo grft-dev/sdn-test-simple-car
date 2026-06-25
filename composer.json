@@ -18,7 +18,7 @@
             "GrftTestSimpleCar\\": "src/"
         }
     },
-    "keywords": ["sdn", "graftcode", "javonet"],
+    "keywords": ["sdn", "graftcode"],
     "homepage": "https://github.com/grft-dev/sdn-test-simple-car",
     "support": {
         "source": "https://github.com/grft-dev/sdn-test-simple-car"

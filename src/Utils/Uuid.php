@@ -4,8 +4,16 @@ declare(strict_types=1);
 
 namespace GrftTestSimpleCar\Utils;
 
+/**
+ * Helper class that produces RFC 4122 version 4 UUID strings.
+ */
 final class Uuid
 {
+    /**
+     * Generates a new RFC 4122 version 4 UUID string.
+     *
+     * @return string A 36-character UUID string in the canonical 8-4-4-4-12 format.
+     */
     public static function generateUuid(): string
     {
         $data = random_bytes(16);
