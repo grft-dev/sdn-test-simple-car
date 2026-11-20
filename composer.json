@@ -11,12 +11,21 @@
         }
     ],
     "require": {
-        "php": "^7.4 || ^8.0"
+        "php": "^7.4 || ^8.0",
+        "graftcode/hypertube-php-sdk": "^3.2.1"
     },
     "autoload": {
         "psr-4": {
             "GrftTestSimpleCar\\": "src/"
         }
+    },
+    "scripts": {
+        "post-install-cmd": [
+            "@php vendor/graftcode/hypertube-php-sdk/scripts/extract-zip-packages.php"
+        ],
+        "post-update-cmd": [
+            "@php vendor/graftcode/hypertube-php-sdk/scripts/extract-zip-packages.php"
+        ]
     },
     "keywords": ["sdn", "graftcode"],
     "homepage": "https://github.com/grft-dev/sdn-test-simple-car",
